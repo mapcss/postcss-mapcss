@@ -1,6 +1,6 @@
 # postcss-mapcss
 
-[PostCSS] plugin [MapCSS]
+[PostCSS] plugin to use [MapCSS]
 
 [PostCSS]: https://github.com/postcss/postcss
 [MapCSS]: https://mapcss.miyauchi.dev
