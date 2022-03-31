@@ -9,7 +9,7 @@ input:
 
 ```css
 body {
-  @apply antialiased text-gray-700
+  @apply antialiased text-gray-800
 }
 ```
 
@@ -41,7 +41,7 @@ const config: Config = {
 };
 
 const css = `body {
-  @apply antialiased text-gray-700
+  @apply antialiased text-gray-800
 }
 `;
 
