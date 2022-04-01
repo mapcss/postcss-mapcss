@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/mapcss/postcss-mapcss/compare/1.0.0-beta.1...1.0.0-beta.2) (2022-04-01)
+
+
+### Features
+
+* add loading config feature ([7e1a3cb](https://github.com/mapcss/postcss-mapcss/commit/7e1a3cbdf576fd4f539fbf16d62bc3cbaa715498))
+
 # 1.0.0-beta.1 (2022-03-31)
 
 
