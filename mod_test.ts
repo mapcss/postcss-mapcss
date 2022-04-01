@@ -13,6 +13,7 @@ Deno.test("plugin", async () => {
     postcss([mapcss({
       extractor: [simpleExtractor, bracketExtractor],
       preset: [presetTw()],
+      useConfig: false,
     })]).process(code),
   ).resolves.toEqual(
     objectContaining({

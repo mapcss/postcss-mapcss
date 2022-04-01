@@ -2,15 +2,19 @@ export {
   applyDirective,
   applyExtractor,
   generate,
-} from "https://deno.land/x/mapcss@v1.0.0-beta.56/core/mod.ts";
+  mergeConfig,
+} from "https://deno.land/x/mapcss@1.0.0-beta.57/core/mod.ts";
+export type {
+  Option as MapCSSOption,
+} from "https://deno.land/x/mapcss@1.0.0-beta.57/core/mod.ts";
 export {
   resolveConfigFile,
   resolveConfigFilePath,
-} from "https://deno.land/x/mapcss@v1.0.0-beta.56/config/mod.ts";
+} from "https://deno.land/x/mapcss@1.0.0-beta.57/config/mod.ts";
 export {
   fromFileSystem,
-} from "https://deno.land/x/mapcss@v1.0.0-beta.56/config/util.ts";
-export type { Config } from "https://deno.land/x/mapcss@v1.0.0-beta.56/core/mod.ts";
+} from "https://deno.land/x/mapcss@1.0.0-beta.57/config/util.ts";
+export type { Config } from "https://deno.land/x/mapcss@1.0.0-beta.57/core/mod.ts";
 
 export type {
   Plugin,
